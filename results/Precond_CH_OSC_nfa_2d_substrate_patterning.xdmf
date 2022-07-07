@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="3.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="mesh" GridType="Uniform">
+      <Topology TopologyType="Triangle" NumberOfElements="40000" NodesPerElement="3">
+        <DataItem Dimensions="40000 3" NumberType="Int" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Mesh/mesh/topology</DataItem>
+      </Topology>
+      <Geometry GeometryType="XY">
+        <DataItem Dimensions="20301 2" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Mesh/mesh/geometry</DataItem>
+      </Geometry>
+    </Grid>
+    <Grid Name="f_13" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.0001" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_0001</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.0021000000000000003" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_0021000000000000003</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.0040999999999999977" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_0040999999999999977</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.006100000000000003" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_006100000000000003</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.0081000000000000065" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_0081000000000000065</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.010099999999999994" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_010099999999999994</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.012099999999999982" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_012099999999999982</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.01409999999999997" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_01409999999999997</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.016099999999999958" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_016099999999999958</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.018099999999999946" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_018099999999999946</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.020099999999999934" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_020099999999999934</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.022099999999999922" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_022099999999999922</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.02409999999999991" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_02409999999999991</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.026099999999999898" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_026099999999999898</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.028099999999999885" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_028099999999999885</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.030099999999999873" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_030099999999999873</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.032099999999999893" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_032099999999999893</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.03409999999999995" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_03409999999999995</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.036100000000000007" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_036100000000000007</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.038100000000000064" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_038100000000000064</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.040100000000000122" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_040100000000000122</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.042100000000000179" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_042100000000000179</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.044100000000000236" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_044100000000000236</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.046100000000000294" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_046100000000000294</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.048100000000000351" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_048100000000000351</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.050100000000000408" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_050100000000000408</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.052100000000000465" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_052100000000000465</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.054100000000000523" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_054100000000000523</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.05610000000000058" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_05610000000000058</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.058100000000000637" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_058100000000000637</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.060100000000000695" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_060100000000000695</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.062100000000000752" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_062100000000000752</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.064100000000000809" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_064100000000000809</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.066100000000000866" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_066100000000000866</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.068100000000000924" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_068100000000000924</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.070100000000000981" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_070100000000000981</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.072100000000001038" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_072100000000001038</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.074100000000001096" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_074100000000001096</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.076100000000001153" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_076100000000001153</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.07810000000000121" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_07810000000000121</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.080100000000001267" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_080100000000001267</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.082100000000001325" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_082100000000001325</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.084100000000001382" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_084100000000001382</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.086100000000001439" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_086100000000001439</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.088100000000001497" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_088100000000001497</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.090100000000001554" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_090100000000001554</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.092100000000001611" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_092100000000001611</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.094100000000001668" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_094100000000001668</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.096100000000001726" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_096100000000001726</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="f_13" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.098100000000001783" />
+        <Attribute Name="f_13" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="20301 1" Format="HDF">Precond_CH_OSC_nfa_2d_substrate_patterning.h5:/Function/f_13/0_098100000000001783</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
