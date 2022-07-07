@@ -372,7 +372,7 @@ while t < T:
     u2.x.array[:n] = x2[:n]
     
     # Print current time and time step size
-    print(f'Time {t: .5f}, current time step size (low precision) {tau: .7f}')
+    print(f'Time {t: .5f}, time step size {tau: .7f}')
     
     # Write only the solution of every it_write'th time step
     it_write = 20
