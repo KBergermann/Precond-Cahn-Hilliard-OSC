@@ -287,7 +287,7 @@ tau = 1e-04
 
 # Intial and terminal time
 t = tau
-T = 1e-03
+T = 1e-01
 
 # Initial concentrations (polymer + nfa) and magnitude of initial random fluctuations
 # (equally distributed, s.t., e.g., u1 \in [pol_init-pol_init_fluct, nfa_init+nfa_init_fluct])
@@ -310,7 +310,7 @@ if substrate_patterning:
 
 # Output file
 filename1 = 'results/Precond_CH_OSC_polymer_%s.xdmf' % postfix
-filename2 = 'results/cahn-Precond_CH_OSC_nfa_%s.xdmf' % postfix
+filename2 = 'results/Precond_CH_OSC_nfa_%s.xdmf' % postfix
 file1, file2 = XDMFFile(MPI.COMM_WORLD, filename1, 'w'), XDMFFile(MPI.COMM_WORLD, filename2, 'w')
     
 
