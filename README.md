@@ -3,7 +3,8 @@
 This repository contains python3 codes reproducing the results from the 
 
 **Paper:**
-[1] Preconditioning for a phase-field model with application to morphology evolution in organic semiconductors. K. Bergermann, C. Deibel, R. Herzog, R. C. I. MacKenzie, J.-F. Pietschmann and M. Stoll. arXiv:2204.03575. 2022.
+
+[1] Preconditioning for a phase-field model with application to morphology evolution in organic semiconductors. K. Bergermann, C. Deibel, R. Herzog, R. C. I. MacKenzie, J.-F. Pietschmann and M. Stoll. [arXiv:2204.03575](https://arxiv.org/pdf/2204.03575.pdf). 2022.
 
 **Requirements:**
  - numpy (tested with version 1.21.5)
@@ -17,7 +18,7 @@ This repository contains python3 codes reproducing the results from the
 All codes were tested with python 3.9.7 on Ubuntu 20.04.4 LTS.
 
 **Visualization:**
-The simulation results generate .h5 and .xdmf output files. The .xdmf files can be visualized using Paraview (tested with version 5.7.0).
+The simulation results generate .h5 and .xdmf output files for polymer and non-fullerene acceptor concentrations. The .xdmf files can be visualized using Paraview (tested with version 5.7.0).
 
 
 This repository contains:
