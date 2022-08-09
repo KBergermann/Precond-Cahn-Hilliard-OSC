@@ -161,10 +161,10 @@ def setup_potentials(phi01, phi02, RT_V, N_p, N_nfa, N_s, chi_p_nfa, chi_p_s, ch
 
     # Define flux terms for Neumann boundary conditions
     k = 5e-03
-    g01=0
-    h01=k*phi01*(1-phi01-phi02)
-    g02=0
-    h02=k*phi02*(1-phi01-phi02)
+    g01 = 0
+    h01 = - k*phi01*(1-phi01-phi02)
+    g02 = 0
+    h02 = - k*phi02*(1-phi01-phi02)
 
     return dfdphi01, dfdphi02, df_sub01dc, df_sub02dc, g01, h01, g02, h02
 
